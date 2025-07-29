@@ -5,7 +5,7 @@ const path = require('path');
 const express = require('express');
 const session = require('express-session');
 const MongoDBStore = require('connect-mongodb-session')(session);
-const DB_PATH = "mongodb+srv://ry5393430:Rajni%40123@cluster0.gewjiji.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const DB_PATH = "mongodb+srv://ry5393430:<password>@cluster0.gewjiji.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 
 //Local Module
